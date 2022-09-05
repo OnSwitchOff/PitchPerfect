@@ -85,7 +85,7 @@
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2e-Nz-gOh" userLabel="Slow Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="199" height="234"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="Button" image="Slow"/>
+                                                <state key="normal" image="Slow"/>
                                                 <connections>
                                                     <action selector="playSoundForPressed:" destination="gj2-KS-BoG" eventType="touchUpInside" id="VXr-bP-hOi"/>
                                                 </connections>
@@ -93,7 +93,7 @@
                                             <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w5T-sO-3vH" userLabel="Fast Button">
                                                 <rect key="frame" x="199" y="0.0" width="199" height="234"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="Button" image="Fast"/>
+                                                <state key="normal" image="Fast"/>
                                                 <connections>
                                                     <action selector="playSoundForPressed:" destination="gj2-KS-BoG" eventType="touchUpInside" id="03o-8i-kNt"/>
                                                 </connections>
@@ -106,7 +106,7 @@
                                             <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UxE-IC-JkE" userLabel="HightPitch Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="199" height="234"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="Button" image="HighPitch"/>
+                                                <state key="normal" image="HighPitch"/>
                                                 <connections>
                                                     <action selector="playSoundForPressed:" destination="gj2-KS-BoG" eventType="touchUpInside" id="Mxe-4Y-Kir"/>
                                                 </connections>
@@ -114,7 +114,7 @@
                                             <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAN-5Q-bqr" userLabel="LowPitch Button">
                                                 <rect key="frame" x="199" y="0.0" width="199" height="234"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="Button" image="LowPitch"/>
+                                                <state key="normal" image="LowPitch"/>
                                                 <connections>
                                                     <action selector="playSoundForPressed:" destination="gj2-KS-BoG" eventType="touchUpInside" id="DHm-iZ-f7b"/>
                                                 </connections>
@@ -135,7 +135,7 @@
                                             <button opaque="NO" tag="5" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ho-O6-EMA" userLabel="Reverb Button">
                                                 <rect key="frame" x="199" y="0.0" width="199" height="234"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="Button" image="Reverb"/>
+                                                <state key="normal" image="Reverb"/>
                                                 <connections>
                                                     <action selector="playSoundForPressed:" destination="gj2-KS-BoG" eventType="touchUpInside" id="K9q-Ca-xmh"/>
                                                 </connections>
@@ -151,7 +151,7 @@
                                     <constraint firstAttribute="width" constant="64" id="sMr-bE-EsY"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="Stop"/>
+                                <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopButtonPressed:" destination="gj2-KS-BoG" eventType="touchUpInside" id="Ckn-9r-uKi"/>
                                 </connections>
